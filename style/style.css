@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fredoka+One&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+body{
+    background-color: hsl(210, 46%, 95%);
+}
+
+.countiener{
+    display: grid;
+    grid-template-rows: 270px 20px 270px;
+    grid-template-columns: repeat(3, 1fr) 20px repeat(3, 1fr) 20px repeat(3, 1fr) 20px repeat(3, 1fr);
+    margin: 100px;
+}
+
+.kira{
+    grid-column-start: 13;
+    grid-column-end: 16;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.jonathan{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 9;
+    grid-column-end: 12;
+    padding: 20px;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.patrick{
+    grid-column-start: 5;
+    grid-column-end: 12;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: hsl(219, 29%, 14%);
+    color: #fff;
+}
+
+.daniel{
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 20px;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.jeanette{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+h2{
+    font-weight: 600;
+    transform: translate(48px, -44px);
+}
+
+h3{
+    font-size: 1em;
+    font-weight: 500;
+    opacity: 50%;
+    transform: translate(48px, -45px);
+}
+
+p{
+    transform: translate(5px, -30px);
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 600;
+}

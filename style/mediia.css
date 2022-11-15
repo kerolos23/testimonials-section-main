@@ -1,0 +1,75 @@
+@media(width: 360px){ 
+    .countiener{
+        grid-template-rows: 20px 270px 20px 180px 20px 168px 20px 270px 20px 390px 20px;
+        grid-template-columns: 20px 226px 20px;
+        margin: 50px;       
+    }
+
+    .kira{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 10;
+        grid-row-end: 11;
+        padding: 10px;
+    }
+
+    .jonathan{
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        padding: 10px;
+    }
+    
+    
+    .patrick{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 8;
+        grid-row-end: 9;
+        padding: 10px;
+
+    }
+    
+    .daniel{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding: 10px;
+    }
+    
+    .jeanette{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        grid-row-end: 7;
+        padding: 10px;
+    }
+
+    h2{
+        font-weight: 500;
+        font-size: .8em;
+        transform: translate(48px, -37px);
+    }
+    
+    h3{
+        font-size: .6em;
+        font-weight: 400;
+        opacity: 50%;
+        transform: translate(48px, -38px);
+    }
+    
+    p{
+        font-size: .7em;
+        margin-bottom: 10px;
+        font-weight: 500;
+        transform: translate(5px, -27px);
+    }
+
+    .p2{
+        opacity: 65%;
+        font-weight: 300;
+        font-size: .7em;
+    }
+}
